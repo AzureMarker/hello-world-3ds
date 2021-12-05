@@ -1,0 +1,4 @@
+[submodule "rust-3ds-fork"]
+	path = rust-3ds-fork
+	url = git@github.com:AzureMarker/rust-3ds-fork.git
+	branch = horizon-std-nightly-2021-12-05
