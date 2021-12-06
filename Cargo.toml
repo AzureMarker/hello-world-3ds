@@ -3,7 +3,13 @@ name = "hello-world-3ds"
 version = "0.1.0"
 edition = "2021"
 
+[profile.dev]
+# Temporarily disabling unwinding until compiling with it is fixed
+panic = "abort"
+
 [profile.release]
+# Temporarily disabling unwinding until compiling with it is fixed
+panic = "abort"
 lto = true
 
 [dependencies]
