@@ -1,2 +1,5 @@
 [dependencies]
-std = {}
+alloc = {}
+panic_abort = {}
+panic_unwind = {}
+std = { stage = 1 }
